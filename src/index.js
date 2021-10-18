@@ -42,6 +42,6 @@ io.on('connection',async client=> {
 
 })
 
-server.listen(8080, function() {
+server.listen(process.env.PORT, function() {
 	console.log('http://localhost:'+8080)
 })
